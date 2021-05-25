@@ -141,21 +141,6 @@ class SwiftUIStackView: UIStackView, UIKitViewHandler {
     }
 }
 
-class SwiftUIGridView: UICollectionView, UIKitViewHandler {
-    deinit {
-        executeDisappearHandler()
-    }
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
-        super.init(frame: frame, collectionViewLayout: layout)
-    }
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        notifyGeometryListener(frame: frame)
-    }
-    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-        updateOnTraitChange(previousTrait: previousTraitCollection)
-    }
+class SwiftUIGridView: UIStackView, UIKitViewHandler {
+
 }
