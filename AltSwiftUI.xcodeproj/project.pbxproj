@@ -82,6 +82,8 @@
 		7D2D4D6E25148269000F5DDC /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D4D6825148269000F5DDC /* Rectangle.swift */; };
 		7D2D4D6F25148269000F5DDC /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D4D6925148269000F5DDC /* Shapes.swift */; };
 		7D2D4D7025148269000F5DDC /* RoundedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D4D6A25148269000F5DDC /* RoundedRectangle.swift */; };
+		CAA5E5AA265CA7D600ED06F8 /* LazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5E5A9265CA7D600ED06F8 /* LazyVStack.swift */; };
+		CAA5E5AF265CA82100ED06F8 /* LazyHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5E5AE265CA82100ED06F8 /* LazyHStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +175,8 @@
 		7D2D4D6825148269000F5DDC /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		7D2D4D6925148269000F5DDC /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		7D2D4D6A25148269000F5DDC /* RoundedRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectangle.swift; sourceTree = "<group>"; };
+		CAA5E5A9265CA7D600ED06F8 /* LazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStack.swift; sourceTree = "<group>"; };
+		CAA5E5AE265CA82100ED06F8 /* LazyHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +396,8 @@
 				2CD19FFD2512066D00E2CCBA /* ViewCollectionIteration.swift */,
 				2CD1A0032512066D00E2CCBA /* VStack.swift */,
 				2CD19FFE2512066D00E2CCBA /* ZStack.swift */,
+				CAA5E5A9265CA7D600ED06F8 /* LazyVStack.swift */,
+				CAA5E5AE265CA82100ED06F8 /* LazyHStack.swift */,
 			);
 			path = Collections;
 			sourceTree = "<group>";
@@ -580,6 +586,7 @@
 				2CD1A0162512066D00E2CCBA /* StateTypes.swift in Sources */,
 				2CD1A03A2512066D00E2CCBA /* TextField.swift in Sources */,
 				2CD1A02B2512066D00E2CCBA /* ViewPropertyTransitionTypes.swift in Sources */,
+				CAA5E5AA265CA7D600ED06F8 /* LazyVStack.swift in Sources */,
 				7D2D4D6E25148269000F5DDC /* Rectangle.swift in Sources */,
 				2CD1A0432512066D00E2CCBA /* List.swift in Sources */,
 				2CD1A01F2512066D00E2CCBA /* UIKitNavigationViews.swift in Sources */,
@@ -614,6 +621,7 @@
 				2CD1A0102512066D00E2CCBA /* LayoutSolver.swift in Sources */,
 				2CD1A02F2512066D00E2CCBA /* UIKitCompat.swift in Sources */,
 				2CD1A02A2512066D00E2CCBA /* ViewPropertyLayoutTypes.swift in Sources */,
+				CAA5E5AF265CA82100ED06F8 /* LazyHStack.swift in Sources */,
 				2CD1A0302512066D00E2CCBA /* Picker.swift in Sources */,
 				2CD1A00F2512066D00E2CCBA /* ViewBinder.swift in Sources */,
 				2CD1A0262512066D00E2CCBA /* ViewPropertyNavigationTypes.swift in Sources */,
